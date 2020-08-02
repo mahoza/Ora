@@ -13,15 +13,18 @@ def about(request):
 
 
 def publish(request):
+    error = ''
     if request.method == 'POST':
         form = TextForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('/')
         else:
+            error = 'ERROR'
     form = TextForm()
     context = {
         'form': form,
+        'error': error
     }
     return render(request, 'main/publish.html', context)
 

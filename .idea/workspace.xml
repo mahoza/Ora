@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71771312-116d-4cc8-8fe2-b56d32674adf" name="Default Changelist" comment="Add new files">
-      <change afterPath="$PROJECT_DIR$/da/main/templates/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/da/da/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/da/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/da/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/da/main/templates/main/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/templates/main/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da/main/templates/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/da/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +48,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/da/main" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\Ora\da\main" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596364193419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add new files">
+      <created>1596379855397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596379855397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -106,18 +115,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1596032100177" />
-    <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596370639400">
+    <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596379881438">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1596370639400" />
+    <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1596379881438" />
     <state x="627" y="0" width="914" height="720" key="SettingsEditor" timestamp="1596020718291">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="627" y="0" width="914" height="720" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1596020718291" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1596364202654">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1596379864534">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1596364202654" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1596379864534" />
     <state x="777" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596378342021">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
