@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Text
+from .forms import TextForm
 
 
 def index(request):
@@ -12,6 +13,16 @@ def about(request):
 
 
 def publish(request):
-    return render(request, 'main/publish.html')
+    if request.method == 'POST':
+        form = TextForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('/')
+        else:
+    form = TextForm()
+    context = {
+        'form': form,
+    }
+    return render(request, 'main/publish.html', context)
 
 

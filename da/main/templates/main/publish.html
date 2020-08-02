@@ -7,14 +7,13 @@ Create text
 
 
 {% block text %}
-<main>
-    <h1>Create text</h1>>
+    <h1>Create text</h1>
     <form method="post">
-        <input type="text" placeholder="Title" class="from-control"><br>
-        <textarea type="text" placeholder="Text" class="from-control"></textarea>><br>
-        <button type="submit" class="btn btn-success">Add</button>
+        {% csrf_token %}
+        {{ form.title }}<br>
+        {{ form.text }}<br>
+       <button type="submit" class="btn btn-success">Add</button>
     </form>
-</main>
 {% endblock %}
 
 
