@@ -1,22 +1,42 @@
 <!doctype html>
+
+{% load static %}
+
+
 <html lang="en">
 <head>
+    <style>
+body {
+  background-color: lightblue;
+}
+ul.hr {
+    margin: 0;
+        padding: 4px;
+   }
+   ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+   }
+</style>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static "style.css" %}" />
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    </head>
+</head>
 <body>
 <header class="site-header">
     <nav class="site-nav">
          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Ora</h5>
             <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-dark" href="{% url 'home' %}">General</a>
-                <a class="p-2 text-dark" href="{% url 'about' %}">About</a>
-                <a class="p-2 text-dark" href="{% url 'publish' %}">Publish</a>
+                <ul class="hr">
+                    <li class="logo-link"><a href="" class="logo">Ora  </a></li>
+                <li class="nav-list-item"><a href="{% url 'home' %}" class="nav-link">General</a></li>
+                <li class="nav-list-item"><a href="{% url 'about' %}" class="nav-link">About  </a></li>
+                <li class="nav-list-item"><a href="{% url 'publish' %}" class="nav-link">Publish</a></li>
+                </ul>
             </nav>
         </div>
     </nav>
@@ -35,4 +55,6 @@
 </main>
 
 </body>
+
+
 </html>

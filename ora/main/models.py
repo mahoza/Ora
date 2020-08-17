@@ -12,3 +12,5 @@ class Text(models.Model):
     class Meta:
         verbose_name = "Text"
         verbose_name_plural = "Texts"
+
+

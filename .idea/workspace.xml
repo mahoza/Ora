@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71771312-116d-4cc8-8fe2-b56d32674adf" name="Default Changelist" comment="Add new files">
+      <change afterPath="$PROJECT_DIR$/ora/main/templates/main/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Ora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/da/main/templates/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/da/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/da/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ora/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ora/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/main/templates/main/basic1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ora/main/templates/main/basic1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ora/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ora/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ora/ora/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ora/ora/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +55,36 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/da/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\Ora\da\main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="Ora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\user\PycharmProjects\Ora\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -89,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596379855397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add new files">
+      <created>1596380559048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596380559048</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add new files">
+      <created>1596381783420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596381783420</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -105,28 +149,53 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new files" />
     <option name="LAST_COMMIT_MESSAGE" value="Add new files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596032100177">
+    <state x="96" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597511194304">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1596032100177" />
+    <state x="96" y="0" width="1089" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1597511194304" />
     <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596379881438">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="720" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1596379881438" />
+    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597511118577">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1597511118577" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1597512034862">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1597512034862" />
+    <state width="1259" height="105" key="GridCell.Tab.0.bottom" timestamp="1597511195868">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="105" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1597511195868" />
+    <state width="1259" height="105" key="GridCell.Tab.0.center" timestamp="1597511195867">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="105" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1597511195867" />
+    <state width="1259" height="105" key="GridCell.Tab.0.left" timestamp="1597511195867">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="105" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1597511195867" />
+    <state width="1259" height="105" key="GridCell.Tab.0.right" timestamp="1597511195868">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="105" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1597511195868" />
     <state x="627" y="0" width="914" height="720" key="SettingsEditor" timestamp="1596020718291">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="627" y="0" width="914" height="720" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1596020718291" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1596379864534">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1596381794944">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1596379864534" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1596381794944" />
     <state x="777" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596378342021">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
