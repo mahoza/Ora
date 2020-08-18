@@ -29,4 +29,6 @@ def publish(request):
     return render(request, 'main/publish.html', context)
 
 
+def login(request):
+    return render(request, 'main/login.html')
 

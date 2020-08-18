@@ -7,14 +7,7 @@ Login
 
 
 {% block text %}
-    <h1>Login</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.mail }}<br>
-        {{ form.password }}<br>
-       <button type="submit" class="btn btn-success">Login</button>
-        <span>{{ error }}</span>
-    </form>
+
 {% endblock %}
 
 

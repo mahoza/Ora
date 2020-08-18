@@ -1,5 +1,4 @@
 from .models import Text
-from .models import Login
 from django.forms import ModelForm, TextInput, Textarea
 
 
