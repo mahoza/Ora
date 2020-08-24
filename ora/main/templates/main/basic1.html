@@ -28,6 +28,18 @@ ul.hr {
 </head>
 <body>
 <header class="site-header">
+
+    <nav>
+        <ul>
+            <li>
+                <form class="logout-link" method="post">
+                    {%csrf_token%}
+                    <button type="submit">Logout</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
     <nav class="site-nav">
          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
             <nav class="my-2 my-md-0 mr-md-3">
@@ -36,7 +48,7 @@ ul.hr {
                 <li class="nav-list-item"><a href="{% url 'home' %}" class="nav-link">General</a></li>
                 <li class="nav-list-item"><a href="{% url 'about' %}" class="nav-link">About  </a></li>
                 <li class="nav-list-item"><a href="{% url 'publish' %}" class="nav-link">Publish</a></li>
-                <li class="nav-list-item"><a href="{% url 'login' %}" class="nav-link">Login</a></li>
+                <li class="nav-list-item"><a href="{% url 'signup' %}" class="nav-link">Signup</a></li>
                 </ul>
             </nav>
         </div>

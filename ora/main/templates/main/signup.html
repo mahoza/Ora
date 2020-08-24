@@ -2,7 +2,7 @@
 
 
 {% block title %}
-    Log in
+    Signup
 {% endblock %}
 
 
@@ -10,8 +10,6 @@
     <form class="site-form" method="post">
         {%csrf_token%}
         {{form}}
-        <input type="submit" value="Login">
+        <input type="submit" value="Signup">
     </form>
 {% endblock %}
-
-
